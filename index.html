@@ -206,15 +206,30 @@
   // tag styles:     "gold" | "tbd" | "white"
   const EVENTS = [
     {
+      day: "Thursday · September 24",
+      items: [
+        {
+          time: "7:00 PM PT",
+          name: "GT Meet Up at Local Tap",
+          desc: "Get the week started early with fellow Jackets fans at Local Tap. Buzz will be stopping by, and the first 100 fans through the door get a free Ramblin' West t-shirt.",
+          tags: [
+            { label: "Buzz Appearance",      style: "gold" },
+            { label: "First 100: Free Tee",  style: "tbd"  },
+          ],
+          isGame: false,
+        },
+      ],
+    },
+    {
       day: "Friday · September 25",
       items: [
         {
           time: "6:00 PM PT",
-          name: "Bay Area GT Alumni Happy Hour",
-          desc: "Kick off the weekend with fellow Jacket fans. Venue and RSVP details coming soon — hosted by the Georgia Tech Alumni Association.",
+          name: "Friday Night Alumni Gathering",
+          desc: "The Bay Area GT Alumni Happy Hour is confirmed for Barebottle Brewing in Menlo Park, with special photo ops on-site. The first 300 fans through the door get a free Ramblin' West t-shirt.<br><a href=\"https://events.gtalumni.org/e/georgia-tech-vs-stanford-friday-night-event/\" target=\"_blank\" rel=\"noopener\">RSVP / event details</a>",
           tags: [
-            { label: "Venue TBD",        style: "tbd" },
-            { label: "RSVP Coming Soon", style: "tbd" },
+            { label: "Barebottle Brewing in Menlo Park", style: "gold" },
+            { label: "First 300: Free Tee",              style: "tbd"  },
           ],
           isGame: false,
         },
@@ -224,16 +239,23 @@
       day: "Saturday · September 26",
       items: [
         {
-          time: "5:00 PM PT",
-          name: "Pre-Game Tailgate",
+          time: "4:00 PM PT",
+          name: "Bay Area Jackets Tailgate",
           desc: "Meet up with the Bay Area GT Alumni Association at Treehouse on Stanford campus before kickoff. Food and drinks served onsite",
+          tags: [],
+          isGame: false,
+        },
+        {
+          time: "4:00 PM PT",
+          name: "Official Alumni Tailgate",
+          desc: "The Georgia Tech Alumni Association is also hosting an official tailgate near the stadium. <a href=\"https://events.gtalumni.org/e/georgia-tech-stanford-tailgate/\" target=\"_blank\" rel=\"noopener\">Details and registration</a>",
           tags: [],
           isGame: false,
         },
         {
           time: "4:30 PM PT · Gates Open",
           name: "Stanford Stadium",
-          desc: "Gates open three hours before kickoff. Stanford Stadium capacity is ~50,000. GT fan section location TBD — purchase GT away tickets at the link below<br><a href=\"https://ramblinwreck.evenue.net/events/FB-AWAY\" target=\"_blank\" rel=\"noopener\">Buy Stanford tickets</a>",
+          desc: "Gates open three hours before kickoff. Stanford Stadium capacity is ~50,000. GT fan sections are 126–128 and 226–228 — purchase GT away tickets at the link below<br><a href=\"https://tickets.gostanford.com/tickets/69c42da8fdb95cb986d58fcb\" target=\"_blank\" rel=\"noopener\">Buy Stanford tickets</a>",
           tags: [],
           isGame: false,
         },
@@ -253,10 +275,10 @@
       day: "Sunday · September 27",
       items: [
         {
-          time: "TBD · Morning",
-          name: "Recovery Brunch",
-          desc: "Wind down the weekend before heading home. Details to be announced by the Bay Area GT Alumni Association.",
-          tags: [{ label: "Details TBD", style: "tbd" }],
+          time: "10:30 AM PT",
+          name: "Group GT Bike Ride: Caltrain to Alpine Inn",
+          desc: "Meet at the California Avenue Caltrain station for a group ride out to Alpine Inn. Everyone's welcome to join in, even if you're sitting out the cycling; just note that parking at Alpine Inn is limited and reservations aren't available.",
+          tags: [{ label: "Parking Limited", style: "tbd" }],
           isGame: false,
         },
       ],
@@ -332,9 +354,9 @@
     },
     {
       title: "Tickets",
-      desc:  "Tickets through GT Athletics. Check with the Bay Area alumni chapter for group purchasing options and GT fan section info before buying individually.",
-      url:   "https://ramblinwreck.evenue.net/events/FB-AWAY",   // ← UPDATE with your chapter's real URL
-      label: "GT Tickets",
+      desc:  "Official Red Out Game tickets through Stanford Athletics. Check with the Bay Area alumni chapter for group purchasing options and GT fan section info before buying individually.",
+      url:   "https://tickets.gostanford.com/tickets/69c42da8fdb95cb986d58fcb",
+      label: "Buy Tickets",
       style: "outline",
     },
   ];
